@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 1.2rem Arial, Helvetica, sans-serif;
+}
+.container {
+  text-align: center;
+  padding-top: 8rem;
+}
+.box {
+  height: 550px;
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1rem;
+  text-align: left;
+}
+.coffee-pics {
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+}
+.pic1 {
+  background: url(./images/espresso.PNG) center center/ 200px no-repeat #e0df4e;
+}
+.pic2 {
+  background: url(./images/latte.PNG) center center/ 200px no-repeat #e0df4e;
+}
+.pic3 {
+  background: url(./images/dragon.PNG) center center/ 200px no-repeat #e0df4e;
+}
+.pic4 {
+  background: url(./images/americano.PNG) center center/ 200px no-repeat #1e3932;
+}
+p {
+  padding: 10px;
+}
+.quantity {
+  display: inline-block;
+}
+.quantity-btn {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.btn {
+  background-color: #ef4244;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 1.1rem;
+  display: block;
+  margin: 2rem 1rem;
+}
